@@ -1,0 +1,51 @@
+name: recruitment_frontend
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  shared_preferences: ^2.0.6
+  provider: ^6.0.0
+  flutter_svg: ^0.22.0
+  intl: ^0.17.0
+  image_picker: ^0.8.4
+  file_picker: ^6.1.1
+  flutter_secure_storage: ^5.0.2
+  socket_io_client: ^2.0.0-beta.4
+  cached_network_image: ^3.1.0
+  shimmer: ^2.0.0
+  flutter_rating_bar: ^4.0.0
+  percent_indicator: ^4.2.1
+  syncfusion_flutter_charts: ^20.1.55
+  flutter_staggered_animations: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
